@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDE72331C4928C9005A2486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE72321C4928C9005A2486 /* AppDelegate.swift */; };
+		ABDE72351C4928C9005A2486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE72341C4928C9005A2486 /* ViewController.swift */; };
+		ABDE72381C4928C9005A2486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDE72361C4928C9005A2486 /* Main.storyboard */; };
+		ABDE723A1C4928C9005A2486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDE72391C4928C9005A2486 /* Assets.xcassets */; };
+		ABF8EB581C492AF700477D72 /* CustomFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF8EB571C492AF700477D72 /* CustomFocusView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABDE722F1C4928C9005A2486 /* FocusView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDE72321C4928C9005A2486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDE72341C4928C9005A2486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDE72371C4928C9005A2486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDE72391C4928C9005A2486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDE723B1C4928C9005A2486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF8EB571C492AF700477D72 /* CustomFocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFocusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDE722C1C4928C9005A2486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDE72261C4928C9005A2486 = {
+			isa = PBXGroup;
+			children = (
+				ABDE72311C4928C9005A2486 /* FocusView */,
+				ABDE72301C4928C9005A2486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDE72301C4928C9005A2486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE722F1C4928C9005A2486 /* FocusView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDE72311C4928C9005A2486 /* FocusView */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE72321C4928C9005A2486 /* AppDelegate.swift */,
+				ABDE72341C4928C9005A2486 /* ViewController.swift */,
+				ABF8EB571C492AF700477D72 /* CustomFocusView.swift */,
+				ABDE72361C4928C9005A2486 /* Main.storyboard */,
+				ABDE72391C4928C9005A2486 /* Assets.xcassets */,
+				ABDE723B1C4928C9005A2486 /* Info.plist */,
+			);
+			name = FocusView;
+			path = FucosView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDE722E1C4928C9005A2486 /* FocusView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDE723E1C4928C9005A2486 /* Build configuration list for PBXNativeTarget "FocusView" */;
+			buildPhases = (
+				ABDE722B1C4928C9005A2486 /* Sources */,
+				ABDE722C1C4928C9005A2486 /* Frameworks */,
+				ABDE722D1C4928C9005A2486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusView;
+			productName = FucosView;
+			productReference = ABDE722F1C4928C9005A2486 /* FocusView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDE72271C4928C9005A2486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Convo Relay";
+				TargetAttributes = {
+					ABDE722E1C4928C9005A2486 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ABDE722A1C4928C9005A2486 /* Build configuration list for PBXProject "FocusView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDE72261C4928C9005A2486;
+			productRefGroup = ABDE72301C4928C9005A2486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDE722E1C4928C9005A2486 /* FocusView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDE722D1C4928C9005A2486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDE723A1C4928C9005A2486 /* Assets.xcassets in Resources */,
+				ABDE72381C4928C9005A2486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDE722B1C4928C9005A2486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDE72351C4928C9005A2486 /* ViewController.swift in Sources */,
+				ABDE72331C4928C9005A2486 /* AppDelegate.swift in Sources */,
+				ABF8EB581C492AF700477D72 /* CustomFocusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABDE72361C4928C9005A2486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDE72371C4928C9005A2486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDE723C1C4928C9005A2486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		ABDE723D1C4928C9005A2486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDE723F1C4928C9005A2486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FucosView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.convo.FocusView;
+				PRODUCT_NAME = FocusView;
+			};
+			name = Debug;
+		};
+		ABDE72401C4928C9005A2486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FucosView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.convo.FocusView;
+				PRODUCT_NAME = FocusView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDE722A1C4928C9005A2486 /* Build configuration list for PBXProject "FocusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDE723C1C4928C9005A2486 /* Debug */,
+				ABDE723D1C4928C9005A2486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDE723E1C4928C9005A2486 /* Build configuration list for PBXNativeTarget "FocusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDE723F1C4928C9005A2486 /* Debug */,
+				ABDE72401C4928C9005A2486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDE72271C4928C9005A2486 /* Project object */;
+}
